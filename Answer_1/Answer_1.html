@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer 1</title>
+    <link rel="stylesheet" href="Answer_1.css">
+    <!-- This is internal css -->
+    <style>
+        div{
+            position: relative;
+            top:100px;
+           color: aliceblue;
+        }
+        input[type="submit"]{
+            display: block;
+            margin-top: 30px;
+            margin-left: 45%;
+        }
+        label[for="Pursuing"],label[for="Complited"]{
+            width: auto;
+        }
+    </style>
+</head>
+<!-- this is inline css -->
+<body style="background-color: #2246d49a;">
+    <div>
+        <form method="get" action="">
+            <fieldset>
+            <legend >Registration Detail</legend>
+            <label for="university">University:</label>
+            <input type="text" id="university"><br><br>
+            <label for="institute">Institute:</label>
+            <input type="text" id="institute"><br><br>
+            <label for="branch">Branch:</label>
+            <select id="branch">
+                <option>--select--</option>
+                <option>CSE</option>
+                <option>Electrical</option>
+                <option>Electronics Communication</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+                <option>Other</option>
+            </select><br><br>
+            <label for="degree">Dgree:</label>
+            <select id="degree">
+                <option>--select--</option>
+                <option>B.tech</option>
+                <option>B.Sc</option>
+                <option>B.E</option>
+                <option>M.tech</option>
+            </select>
+            <input type="radio" name="status" id="Pursuing"><label for="Pursuing">Pursuing</label> 
+            <input type="radio" name="status" id="Complited"><label for="Complited">Complited</label> <br><br>
+            <label>Average CPI:</label>
+            <input type="number" >Upto
+            <input type="number">th Semester<br><br>
+            <label for="experiance">Experiance:</label>
+            <input type="number" id="experiance">Years<br><br>
+            <label for="url">Your Website or Blog:</label>
+            <input type="text" value="http://" id="url">
+            <input type="submit" value="Submit">
+        </fieldset>
+        </form>
+</body>
+</html>

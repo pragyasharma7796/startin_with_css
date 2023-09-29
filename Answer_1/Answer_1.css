@@ -1,0 +1,33 @@
+
+/* this is external css for Answer 1 */
+fieldset{
+    width:50%;
+    margin-left: 25%;
+    font-size: 20px;
+    border-color: aliceblue;
+}
+input[type="number"]{
+    display: inline-block;
+    width: 50px;
+    
+}
+label{
+    display: inline-block;
+    width:45%;
+    text-align: right;
+    padding-bottom: 10px;
+    padding-right: 8px;
+}
+input{
+    display: inline-block;
+    border-radius: 5px;
+    height: 20px;
+    
+}
+input[type="text"]{
+    width:200px ;
+}
+select{
+    border-radius: 3px;
+    border:0px solid white;
+}
